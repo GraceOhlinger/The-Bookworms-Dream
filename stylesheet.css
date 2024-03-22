@@ -1,0 +1,57 @@
+.logo {
+    margin-top: 20px;
+    flex-wrap: nowrap;
+}
+
+.header {
+    color: black;
+    font-family: Sunday Best;
+    text-align: center;
+    background-color: #C7B299;
+    padding: 30px;
+    margin: -10px;
+}
+
+.navbar {
+    display: inline-block;
+    line-height: 50px;
+    background-color: #ADD8E6;
+    font-size: 15pt;
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: -10px;
+    margin: -10px;
+}
+
+.navbar li {
+    margin: -10px;
+    float: left;
+    margin: 0px;
+    padding: 5px;
+}
+
+.navbar li a {
+    display: inline-block;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    color: black;
+    font-family: helvetica-bold;
+}
+
+.h2 {
+    font-family: simple sample;
+    font-size: 40pt;
+    padding: 0;
+    margin: 0;
+}
+
+.intro {
+    font-family: american typewriter;
+    font-size: 16pt;
+}
