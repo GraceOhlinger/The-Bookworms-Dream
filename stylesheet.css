@@ -19,7 +19,7 @@
     justify-content: flex-end;
     font-family: helvetica;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     justify-content: flex-end;
     margin-top: -80px;
@@ -86,7 +86,7 @@
 
 .intro {
     font-family: american typewriter;
-    font-size: 20px;
+    font-size: 25px;
     margin: 25px;
     padding: 0px;
 }
@@ -161,6 +161,83 @@
 
 .ward a:hover {
     color: purple;
+}
+
+.about-us {
+    font-family: helvetica;
+}
+
+.our-mission {
+    font-family: helvetica;
+}
+
+.our-goals {
+    font-family: helvetica;
+}
+
+.bookclub-header {
+    font-family: american typewriter;
+    text-align: center;
+    font-size: 20px;
+}
+
+.bookclub-text {
+    font-family: helvetica;
+    text-align: justify-center;
+    margin: 20px;
+    line-height: 2;
+}
+
+.bookclub-text a {
+    text-decoration: none;
+    color: black;
+}
+
+.bookclub-text a:hover {
+    color: purple;
+}
+
+.starting-bookclub {
+    font-family: helvetica;
+    text-align: justify-center;
+    margin: 20px;
+    line-height: 1.75;
+}
+
+.starting-bookclub a {
+    text-decoration: none;
+    color: black;
+}
+
+.starting-bookclub a:hover {
+    color: purple;
+}
+
+.start-bookclub {
+    font-family: simple sample;
+    text-align: justify-center;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.create-account {
+    font-family: helvetica;
+    text-align: justify-center;
+    margin: 20px;
+    line-height: 1.75;
+}
+
+.create-account a {
+    text-decoration: none;
+    color: black;
+}
+
+.create-account a:hover {
+    color: purple;
+}
+
+.contact {
+    font-family: helvetica;
 }
 
 .footer {
