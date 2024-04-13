@@ -6,12 +6,21 @@
 
 .header {
     color: black;
-    font-family: Simple Sample;
+    font-family: simple sample;
     text-align: center;
     background-color: #C7B299;
     font-size: 45px;
     padding: 30px;
     margin: -25px;
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: purple;
 }
 
 .login {
@@ -20,8 +29,6 @@
     font-family: helvetica;
     font-weight: bold;
     font-size: 18px;
-    display: flex;
-    justify-content: flex-end;
     margin-top: -80px;
     margin-right: 30px;
     margin-bottom: -10px;
@@ -38,16 +45,10 @@
     color: purple;
 }
 
-.header a {
-    color: black;
-    text-decoration: none;
-}
-
-.header a:hover {
-    color: purple;
-}
-
 .navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     list-style: none;
     background: #AAD8E6;
     padding: 0px;
@@ -89,6 +90,7 @@
     font-size: 25px;
     margin: 25px;
     padding: 0px;
+    line-height: 1.5;
 }
 
 .books {
@@ -101,62 +103,85 @@
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 225px;
-}
-
-.container2 {
-    display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
     margin: -10px;
+}
+
+.mindfulness-image {
+    margin: -10px;
+    margin-top: 25px;
+}
+
+.mindfulness-info {
+    font-style: italic;
 }
 
 .hobson {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     font-family: helvetica;
     font-size: 18px;
 }
 
 .hobson a {
     text-decoration: none;
-    color: black;
+    color: blue;
+    font-weight: bold;
 }
 
 .hobson a:hover {
     color: purple;
 }
 
+.crystals-image {
+    margin: -10px;
+    margin-top: 25px;
+}
+
+.crystals-info {
+    font-style: italic;
+}
+
 .anderson {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     font-family: helvetica;
     font-size: 18px;
 }
 
 .anderson a {
     text-decoration: none;
-    color: black;
+    color: blue;
+    font-weight: bold;
 }
 
 .anderson a:hover {
     color: purple;
 }
 
+.meditation-image {
+    margin: -10px;
+    margin-top: 25px;
+}
+
+.meditation-info {
+    font-style: italic;
+}
+
 .ward {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     font-family: helvetica;
     font-size: 18px;
 }
 
 .ward a {
     text-decoration: none;
-    color: black;
+    color: blue;
+    font-weight: bold;
 }
 
 .ward a:hover {
@@ -165,14 +190,19 @@
 
 .about-us {
     font-family: helvetica;
+    margin: 15px;
+    line-height: 1.75;
 }
 
 .our-mission {
     font-family: helvetica;
+    margin: 15px;
+    line-height: 1.75;
 }
 
 .our-goals {
     font-family: helvetica;
+    margin: 15px;
 }
 
 .bookclub-header {
@@ -190,7 +220,8 @@
 
 .bookclub-text a {
     text-decoration: none;
-    color: black;
+    color: blue;
+    font-weight: bold;
 }
 
 .bookclub-text a:hover {
@@ -206,7 +237,8 @@
 
 .starting-bookclub a {
     text-decoration: none;
-    color: black;
+    color: blue;
+    font-weight: bold;
 }
 
 .starting-bookclub a:hover {
@@ -229,7 +261,8 @@
 
 .create-account a {
     text-decoration: none;
-    color: black;
+    color: blue;
+    font-weight: bold;
 }
 
 .create-account a:hover {
@@ -238,10 +271,24 @@
 
 .contact {
     font-family: helvetica;
+    margin: 10px;
+}
+
+.contact-form {
+    font-family: helvetica;
+    font-size: 15px;
+    margin: 20px;
+}
+
+.contact-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .footer {
     display: flex;
+    flex-direction: row;
     gap: 10px;
     align-items: center;
     justify-content: center;
