@@ -112,8 +112,17 @@
     margin-top: 25px;
 }
 
-.mindfulness-info {
+.mindfulness-text-1 {
+    font-family: helvetica;
+}
+
+.mindfulness-text-2 {
     font-style: italic;
+    font-family: helvetica;
+}
+
+.mindfulness-text-3 {
+    font-family: helvetica;
 }
 
 .hobson {
@@ -139,8 +148,17 @@
     margin-top: 25px;
 }
 
-.crystals-info {
+.crystals-text-1 {
+    font-family: helvetica;
+}
+
+.crystals-text-2 {
+    font-family: helvetica;
     font-style: italic;
+}
+
+.crystals-text-3 {
+    font-family: helvetica;
 }
 
 .anderson {
@@ -166,8 +184,17 @@
     margin-top: 25px;
 }
 
-.meditation-info {
+.meditation-text-1 {
+    font-family: helvetica;
+}
+
+.meditation-text-2 {
+    font-family: helvetica;
     font-style: italic;
+}
+
+.meditation-text-3 {
+    font-family: helvetica;
 }
 
 .ward {
@@ -204,6 +231,530 @@
     font-family: helvetica;
     margin: 15px;
 }
+
+.bookstore-text-1 {
+    font-family: sunday best;
+    font-size: 20px;
+    text-align: center;
+}
+
+.bookstore-text-2 {
+    margin-bottom: 20px;
+    font-family: helvetica;
+    font-size: 12px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.bookstore-buttons-1 {
+    width: 100%
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bookstore-buttons-2 {
+    width: 100%
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bookstore-buttons-3 {
+    width: 100%
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.warning {
+    font-family: helvetica;
+    color: red;
+    font-style: bold;
+}
+
+.warning-text {
+    font-family: helvetica;
+}
+
+.romance {
+    margin: 20px;
+}
+
+.poetry {
+    margin: 20px;
+}
+
+.scifi {
+    margin: 20px;
+}
+
+.fiction {
+    margin: 20px;
+}
+
+.self-help {
+    margin: 20px;
+}
+
+.mystery {
+    margin: 20px;
+}
+
+.non-fiction {
+    margin: 20px;
+}
+
+.thriller {
+    margin: 20px; 
+}
+
+.fantasy {
+    margin: 20px;
+}
+
+.romance-header {
+    font-family: sunday best;
+    text-align: center;
+}
+
+.romance-books-1 {
+    width: 100%
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.romance-books-2 {
+    width: 100%
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.fiction-header {
+    font-family: sunday best;
+    text-align: center;
+}
+
+.fiction-books-1 {
+    width: 100%
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.fiction-books-2 {
+    width: 100%
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.non-fiction-header {
+    font-family: sunday best;
+    text-align: center;
+}
+
+.non-fiction-books-1 {
+    width: 100%
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.non-fiction-books-2 {
+    width: 100%
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.poetry-header {
+    font-family: sunday best;
+    text-align: center;
+}
+
+.poetry-books-1 {
+    width: 100%
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.poetry-books-2 {
+    width: 100%
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.self-help-header {
+    font-family: sunday best;
+    text-align: center;
+}
+
+.self-help-books-1 {
+    width: 100%
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.self-help-books-2 {
+    width: 100%
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.thriller-header {
+    font-family: sunday best;
+    text-align: center;
+}
+
+.thriller-books-1 {
+    width: 100%
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.thriller-books-2 {
+    width: 100%
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sci-fi-header {
+    font-family: sunday best;
+    text-align: center;
+}
+
+.sci-fi-books-1 {
+    width: 100%
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sci-fi-books-2 {
+    width: 100%
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mystery-header {
+    font-family: sunday best;
+    text-align: center;
+}
+
+.mystery-books-1 {
+    width: 100%
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mystery-books-2 {
+    width: 100%
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.fantasy-header {
+    font-family: sunday best;
+    text-align: center;
+}
+
+.fantasy-books-1 {
+    width: 100%
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.fantasy-books-2 {
+    width: 100%
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.italic {
+    font-family: helvetica;
+}
+
+.italic a {
+    font-style: italic;
+    color: blue;
+    text-decoration: none;
+}
+
+.italic a hover {
+    color: purple;
+}
+
+.about-book {
+    font-family: helvetica;
+    margin: 25px;
+}
+
+.broken {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.maybe {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.better {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.elenor {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.fight {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.malibu {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.unexpected {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.people {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.dewey {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.money {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.iwill {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.minimal {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.minimal-book {
+    margin: 25px;
+    margin-left: 25px;
+}
+
+.emily {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.hope {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.milkandhoney {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.robert {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.mindsight {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.blink {
+    margin: 25px; 
+    font-family: helvetica;
+}
+
+.emotional {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.atomic {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.atomic-book {
+    margin: 25px;
+    margin-left: 25px;
+}
+
+.survivors {
+    margin: 25px; 
+    font-family: helvetica;
+}
+
+.survivors-book {
+    margin: 25px;
+    margin-left: 25px;
+}
+
+.silent {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.silent-book {
+    margin: 25px;
+    margin-left: 25px;
+}
+
+.devious {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.cabin {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.equation {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.martian {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.armada {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.hitchhiker {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.hunting {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.dark {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.addie {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.addie-book {
+    margin: 25px;
+    margin-left: 25px;
+}
+
+.chestnut {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.shade {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.bone {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.bone-book {
+    margin: 25px;
+    margin-left: 25px;
+}
+
+.outlander {
+    margin: 25px;
+    font-family: helvetica;
+}
+
+.lost {
+    margin: 25px;
+    font-family: helvetica;
+}
+
 
 .bookclub-header {
     font-family: american typewriter;
@@ -281,6 +832,12 @@
 }
 
 .contact-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.add-to-cart-button {
     display: flex;
     flex-direction: row;
     justify-content: center;
