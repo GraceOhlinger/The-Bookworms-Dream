@@ -91,16 +91,17 @@
 
 .navbar {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center;
     background-color: #AAD8E6;
     color: black; 
     width: 100%;
     margin: 0px -25px;
-    padding: 0px 30px;
+   padding: 0px 30px;
     font-family: helvetica;
     font-size: 45px;
     width: 100%;
+    text-align: center;
+    gap: 100px;
 }
 
 .navbar ul {
@@ -109,6 +110,7 @@
     justify-content: space-evenly;
     list-style: none;
     text-align: center;
+    width: 100%;
 }
 
 .navbar li {
@@ -135,7 +137,7 @@
     color: purple;
 }
 
-.newarrivals {
+.new-arrivals {
     font-family: simple sample;
     font-size: 65px;
     padding: 10px;
@@ -151,10 +153,27 @@
     line-height: 1.5;
 }
 
+.mainheader {
+    display: flex;
+    justify-content: center;
+    font-family: american typewriter;
+}
+
+.secondheader {
+    font-family: helvetica;
+}
+
+.bookclubtext {
+    display: flex;
+    flex-direction: column;
+    font-family: helvetica; 
+    font-weight: light;
+    width: 800px;
+}
+
 .books {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center;
     padding: 0px;
     margin: 0px;
     width: 100%;
@@ -168,21 +187,17 @@
 }
 
 .mindfulness-image {
+    display: flex;
+    justify-content: center;
     margin: -10px;
     margin-top: 25px;
+    padding: 10px;
 }
 
-.mindfulness-text-1 {
+.mindfulness-text {
     font-family: helvetica;
-}
-
-.mindfulness-text-2 {
-    font-style: italic;
-    font-family: helvetica;
-}
-
-.mindfulness-text-3 {
-    font-family: helvetica;
+    padding: 10px;
+    margin: 10px;
 }
 
 .hobson {
@@ -204,21 +219,17 @@
 }
 
 .crystals-image {
+    display: flex;
+    justify-content: center;
     margin: -10px;
     margin-top: 25px;
+    padding: 10px;
 }
 
-.crystals-text-1 {
+.crystals-text {
     font-family: helvetica;
-}
-
-.crystals-text-2 {
-    font-family: helvetica;
-    font-style: italic;
-}
-
-.crystals-text-3 {
-    font-family: helvetica;
+    padding: 10px;
+    margin: 10px;
 }
 
 .anderson {
@@ -240,21 +251,17 @@
 }
 
 .meditation-image {
+    display: flex;
+    justify-content: center;
     margin: -10px;
     margin-top: 25px;
+    padding: 10px;
 }
 
-.meditation-text-1 {
+.meditation-text {
     font-family: helvetica;
-}
-
-.meditation-text-2 {
-    font-family: helvetica;
-    font-style: italic;
-}
-
-.meditation-text-3 {
-    font-family: helvetica;
+    padding: 10px;
+    margin: 10px;
 }
 
 .ward {
@@ -306,8 +313,13 @@
     flex-wrap: wrap;
 }
 
+.buttons3 {
+    display: flex;
+    flex-direction: row;
+}
+
 .bookstore-buttons-1 {
-    width: 100%
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -316,7 +328,7 @@
 }
 
 .bookstore-buttons-2 {
-    width: 100%
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -325,7 +337,7 @@
 }
 
 .bookstore-buttons-3 {
-    width: 100%
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -333,14 +345,17 @@
     flex-wrap: wrap;
 }
 
-.warning {
+.about-text {
+    width: 100%;
+    line-height: 40px;
     font-family: helvetica;
-    color: red;
-    font-style: bold;
+    padding: 20px;
 }
 
-.warning-text {
-    font-family: helvetica;
+.images {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
 }
 
 .romance {
@@ -351,7 +366,7 @@
     margin: 20px;
 }
 
-.scifi {
+.sci-fi {
     margin: 20px;
 }
 
@@ -379,213 +394,54 @@
     margin: 20px;
 }
 
-.romance-header {
+.sunday-best-header {
     font-family: sunday best;
     text-align: center;
 }
 
-.romance-books-1 {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.romance-books-2 {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.fiction-header {
-    font-family: sunday best;
+.helvetica-header {
+    font-family: helvetica;
     text-align: center;
 }
 
-.fiction-books-1 {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+.helvetica-header2 {
+    font-family: helvetica;
+    text-align: left;
 }
 
-.fiction-books-2 {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+.helvetica-header3 {
+    font-family: helvetica;
+    text-align: center;
+    font-size: 18px;
 }
 
-.non-fiction-header {
-    font-family: sunday best;
+.helvetica-header4 {
+    font-family: helvetica;
+    text-align: center;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.typewriter-header {
+    font-family: american typewriter;
+    font-size: 20px;
     text-align: center;
 }
 
-.non-fiction-books-1 {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.non-fiction-books-2 {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.poetry-header {
-    font-family: sunday best;
+.typewriter-header2 {
+    font-family: american typewriter;
     text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
-.poetry-books-1 {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+.typewriter-header3 {
+    font-family: american typewriter;
+    text-align: left;
 }
-
-.poetry-books-2 {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.self-help-header {
-    font-family: sunday best;
-    text-align: center;
-}
-
-.self-help-books-1 {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.self-help-books-2 {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.thriller-header {
-    font-family: sunday best;
-    text-align: center;
-}
-
-.thriller-books-1 {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.thriller-books-2 {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.sci-fi-header {
-    font-family: sunday best;
-    text-align: center;
-}
-
-.sci-fi-books-1 {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.sci-fi-books-2 {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.mystery-header {
-    font-family: sunday best;
-    text-align: center;
-}
-
-.mystery-books-1 {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.mystery-books-2 {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.fantasy-header {
-    font-family: sunday best;
-    text-align: center;
-}
-
-.fantasy-books-1 {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.fantasy-books-2 {
-    width: 100%
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
+    
 .italic {
     font-family: helvetica;
 }
@@ -600,225 +456,48 @@
     color: purple;
 }
 
-.about-book {
+.italic2 {
     font-family: helvetica;
-    margin: 25px;
+    margin: 20px;
+    padding: 0px;
 }
 
-.broken {
-    margin: 25px;
+.italic2 a {
+    font-style: italic;
+    color: blue;
+}
+
+.italic2 a hover {
+    color: purple;
+}
+
+.portalnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #DBEAD2;
+    color: black; 
     font-family: helvetica;
+    font-weight: bold;
+    width: 100%;
+    margin: 0px -25px;
+    padding: 0px 30px;
 }
 
-.maybe {
-    margin: 25px;
-    font-family: helvetica;
+.portalnav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    gap: 60px;
 }
 
-.better {
-    margin: 25px;
-    font-family: helvetica;
+.portalnav a {
+    text-decoration: none;
 }
 
-.elenor {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.fight {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.malibu {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.unexpected {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.people {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.dewey {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.money {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.iwill {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.minimal {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.minimal-book {
-    margin: 25px;
-    margin-left: 25px;
-}
-
-.emily {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.hope {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.milkandhoney {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.robert {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.mindsight {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.blink {
-    margin: 25px; 
-    font-family: helvetica;
-}
-
-.emotional {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.atomic {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.atomic-book {
-    margin: 25px;
-    margin-left: 25px;
-}
-
-.survivors {
-    margin: 25px; 
-    font-family: helvetica;
-}
-
-.survivors-book {
-    margin: 25px;
-    margin-left: 25px;
-}
-
-.silent {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.silent-book {
-    margin: 25px;
-    margin-left: 25px;
-}
-
-.devious {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.cabin {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.equation {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.martian {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.armada {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.hitchhiker {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.hunting {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.dark {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.addie {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.addie-book {
-    margin: 25px;
-    margin-left: 25px;
-}
-
-.chestnut {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.shade {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.bone {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.bone-book {
-    margin: 25px;
-    margin-left: 25px;
-}
-
-.outlander {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.lost {
-    margin: 25px;
-    font-family: helvetica;
-}
-
-.bookclub-header {
-    font-family: sunday best;
-    text-align: center;
-    font-size: 20px;
+.portalnav a:hover {
+    color: purple;
 }
 
 .bookclub-text {
@@ -889,51 +568,189 @@
     padding: 10px;
 }
 
+.shoppingtext {
+    text-align: left;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    font-family: helvetica;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.club-members {
+    font-family: helvetica;
+}
+
+.club-members2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: helvetica;
+    padding: 20px;
+}
+
+.portal-messages {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    font-family: helvetica;
+    background-color: #DBEAD2;
+    height: 175px;
+    padding: 15px;
+    line-height: 22px;
+}
+
+.time-stamps {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.profile2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: 20px;
+    margin: 10px;
+}
+
 .contact {
     font-family: helvetica;
     margin: 10px;
 }
 
-.contact-form {
+.forms {
     font-family: helvetica;
     font-size: 15px;
     margin: 20px;
 }
 
-.shopping1 {
+.forms2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 500px;
+    line-height: 30px;
+}
+
+.wrapper {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    font-family: helvetica;
+}
+
+.wrapper2 {
+    margin: 0px;
+    display: flex;
+    justify-content: left;
+    min-height: 50vh;
+    gap: 200px;
+}
+
+.wrapper3 {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    min-height: 50vh;
+    font-family: helvetica;
+    gap: 200px;
+}
+
+.wrapper4 {
+    display: flex;
+    justify-content: center;
+    column-gap: 80px;
+}
+
+.bookclubad {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+}
+
+.alert {
+    --foreground-color: #222222;
+    --background-color: #FFEA00;
+
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    background-color: var(--background-color);
+}
+
+.alert-icon {
+    display: flex;
+    align-items: center;
+} 
+
+.alert-text {
+    margin: 18px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: helvetica;
+    line-height: 25px;
+    font-style: bold;
+}
+
+.alerticon .material-symbols-outlined,
+.alert-text {
+    color: var (--foreground-color);
+}
+
+.clubmembers {
+    display: flex;
+    flex-direction: column;
+    font-family: helvetica;
+}
+
+.bookclubad {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: left;
+    font-family: helvetica;
+    font-weight: light;
+    width: 800px;
+    align-items: center;
+    gap: 30px;
 }
 
-.shopping2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.wrapper p{
+    margin: 20px;
+    width: 500px;
+    font-family: helvetica;
+    line-height: 30px;
 }
 
-.shoppingbuttons1 {
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-evenly;
-}
-
-.submit-button {
+.buttons {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.add-to-cart-button {
+.buttons2 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
 }
 
-.sign-in-button {
+.buttons3 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    gap: 10px;
 }
 
 .footer {
@@ -961,20 +778,56 @@
     font-weight: light;
 }
 
-@media only screen and (min-width: 750px) {
+.warning-container {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.alert-text {
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+@media only screen and (max-width: 500px) {
     .header {
-        width: 100%; 
+        font-size: 16px;
     }
 
-    .navbar ul {
-        width: 100%;
-    }
-
-    .footer {
-        width: 100%;
+    .intro {
+        font-size: 12px;
     }
 
     .books {
-        width: 100%
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .about-us {
+        margin: 20px;
+        line-height: 1.5;
+    }
+    
+    .our-mission {
+        margin: 20px;
+        line-height: 1.5;
+    }
+    
+    .our-goals {
+        margin: 20px;
+        line-height: 1.5;
+    }
+
+    .wrapper {
+        margin: 30px;
+        padding: 30px;
     }
 }
